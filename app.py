@@ -62,7 +62,7 @@ def sms_reply():
         message = MIMEText('I am not feeling well today and will not be able to attend the scheduled events. I will reschedule them as soon as possible.')
         message['to'] = 'recipient@example.com'
         message['from'] = '247menace@elysiuminnovations.ai'
-        message['subject'] = 'Cancellation of today's events'
+        message['subject'] = "Cancellation of today's events"
         raw_message = base64.urlsafe_b64encode(message.as_bytes())
         raw_message = raw_message.decode()
         message = service.users().messages().send(userId='me', body={'raw': raw_message}).execute()
