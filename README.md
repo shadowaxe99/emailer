@@ -32,6 +32,34 @@ This program provides a wide range of functionalities by integrating various API
 
 - `uber_eats_integration.py`: This module provides functionalities related to Uber Eats integration.
 
+- `personalization.py`: This module provides functionalities for personalizing the email assistant according to the user's preferences.
+
+- `email_summary.py`: This module provides functionalities for providing a daily or weekly summary of the user's emails.
+
+- `email_search.py`: This module provides functionalities for searching the user's emails based on various criteria.
+
+- `email_sorting.py`: This module provides functionalities for sorting the user's emails into different folders or categories.
+
+- `reminder.py`: This module provides functionalities for setting reminders based on the content of the user's emails.
+
+- `email_analytics.py`: This module provides functionalities for analyzing the user's email habits and providing insights.
+
+- `user_interface.py`: This module provides functionalities for creating a graphical user interface (GUI) for the email assistant.
+
+- `smart_reply_suggestions.py`: This module provides functionalities for generating smart reply suggestions based on the content of the incoming email.
+
+- `priority_inbox.py`: This module provides functionalities for identifying important emails and moving them to a "Priority Inbox".
+
+- `unsubscribe.py`: This module provides functionalities for automatically identifying and clicking "unsubscribe" links in spam or promotional emails.
+
+- `email_thread_summary.py`: This module provides functionalities for providing a summary of long email threads.
+
+- `sentiment_analysis.py`: This module provides functionalities for performing sentiment analysis on the emails.
+
+- `voice_assistant.py`: This module provides functionalities for voice commands and voice-to-text conversion.
+
+- `language_translation.py`: This module provides functionalities for automatic language translation.
+
 
 ## How to use this program
 
