@@ -1,21 +1,44 @@
-# Gmail API Project
+# Investor Emailer
 
-This project uses the Gmail API to fetch the latest email from a Gmail account, categorizes the email using a Naive Bayes classifier, generates a reply based on the context of the fetched email using OpenAI's GPT-3 model, and finally creates a new draft email with the auto-generated reply and saves it to the drafts folder of the Gmail account.
+This program provides a wide range of functionalities by integrating various APIs. Here's a brief overview of what each part of the program does:
 
-## Scripts
+- `app.py`: This is the main entry point of the program.
 
-The project consists of the following scripts:
+- `action_executor.py`: This module is responsible for executing various actions.
 
-- `fetch_email.py`: Fetches the latest email from the user's Gmail account.
-- `categorize_email.py`: Categorizes the fetched email using a Naive Bayes classifier.
-- `generate_reply.py`: Generates a reply based on the context of the fetched email using OpenAI's GPT-3 model.
-- `create_draft.py`: Creates a new draft email with the auto-generated reply and saves it to the drafts folder of the Gmail account.
-- `main.py`: The main script that integrates all the functionalities.
+- `calendar_integration.py`: This module provides functionalities related to calendar integration.
 
-## Instructions
+- `contact_manager.py`: This module is responsible for managing contacts.
 
-1. Navigate to the project directory on your Desktop.
-2. Install the necessary dependencies by running `pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib openai`.
-3. Run the main script by executing `python main.py`.
+- `continuous_learning.py`: This module provides functionalities related to continuous learning.
 
-Please note that you need to replace 'credentials.json' with the path to your actual credentials file, and 'token.json' with the path to your token file. You also need to set your OpenAI API key as an environment variable named 'OPENAI_API_KEY'.
+- `daily_inspiration.py`: This module is responsible for providing daily inspiration.
+
+- `database.py` and `database_manager.py`: These modules are responsible for all database related operations.
+
+- `email_helper.py`: This module provides functionalities related to email handling.
+
+- `feature_selection.py`: This module is responsible for feature selection.
+
+- `integration_points.py`: This module provides functionalities related to integration points.
+
+- `nlp_processing.py`: This module provides functionalities related to natural language processing.
+
+- `outlook_service.py`: This module provides functionalities related to outlook service.
+
+- `prompts.py`: This module is responsible for managing prompts.
+
+- `security.py`: This module provides functionalities related to security.
+
+- `uber_eats_integration.py`: This module provides functionalities related to Uber Eats integration.
+
+
+## How to use this program
+
+1. Run `app.py` to start the program.
+
+2. The program will guide you through the process of performing various actions.
+
+3. You can perform actions like sending emails, scheduling events, managing contacts, and more.
+
+Please refer to the individual modules for more detailed information on how to use each functionality.

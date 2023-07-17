@@ -1,0 +1,121 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  color: blue;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+}
+
+.content {
+  padding: 20px;
+}
+
+.problem-graphic {
+  animation: problem-graphic 3s infinite;
+}
+
+@keyframes problem-graphic {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.solution-graphic {
+  animation: solution-graphic 3s infinite;
+}
+
+@keyframes solution-graphic {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.benefits-graphic {
+  animation: benefits-graphic 3s infinite;
+}
+
+@keyframes benefits-graphic {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Additional tips */
+
+.call-to-action {
+  font-size: 24px;
+  color: red;
+}
+
+.call-to-action:hover {
+  color: blue;
+}
+
+.humor {
+  font-size: 18px;
+  color: green;
+}
+
+.humor:hover {
+  color: blue;
+}
+
+.creative {
+  font-size: 16px;
+  color: yellow;
+}
+
+.creative:hover {
+  color: blue;
+}
+
+#progress-bar {
+  width: 0%;
+  height: 30px;
+  background-color: #4CAF50;
+}
